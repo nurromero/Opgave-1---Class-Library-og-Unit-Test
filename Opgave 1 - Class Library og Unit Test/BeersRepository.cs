@@ -27,7 +27,7 @@ namespace Opgave_1___Class_Library_og_Unit_Test
             _beers.Add(new Beer(6, "Marmara Gold", 6));
         }
 
-        // Get that returns a copy a the list of all beer objects, using a copy constructor
+        // Get that returns a copy of the list of all beer objects 
         public List<Beer> Get()
         {
             return new List<Beer>(_beers);
